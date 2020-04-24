@@ -8,7 +8,7 @@ app.use(express.json());
 
 app.use('/api/users', userRouter);
 
-
+// node app api
 
 app.listen(process.env.APP_PORT,()=> {
     console.log('surver up and running running');
